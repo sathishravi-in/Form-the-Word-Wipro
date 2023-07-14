@@ -10,7 +10,7 @@ String[] words = input1.split(":");
 StringBuilder output = new StringBuilder();
 
 for (String word : words) {
-if(word.charAt(0)=-word.charAt(1)){ 
+if(word.charAt(0)==word.charAt(1)){ 
 output.append(word.charAt(0));
 }else{
 int pos1 = word.charAt(0)-'a';
